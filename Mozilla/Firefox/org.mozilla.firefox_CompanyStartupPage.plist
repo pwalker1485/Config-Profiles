@@ -22,6 +22,8 @@
 		<array>
 			<string>https://regionalcompanywebsite.co.uk</string>
 		</array>
+		<key>StartPage</key>
+    	<string>homepage</string>
 	</dict>
 	<key>NoDefaultBookmarks</key>
 	<true/>

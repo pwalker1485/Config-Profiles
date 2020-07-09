@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowOutdatedPlugins</key>
+	<false/>
+	<key>AlwaysAuthorizePlugins</key>
+	<true/>
+	<key>AutofillCreditCardEnabled</key>
+	<false/>
+	<key>BackgroundModeEnabled</key>
+	<false/>
+	<key>DefaultBrowserSettingEnabled</key>
+	<false/>
+	<key>DefaultSearchProviderEnabled</key>
+	<true/>
+	<key>DefaultSearchProviderName</key>
+	<string>Google</string>
+	<key>DefaultSearchProviderSearchURL</key>
+	<string>{google:baseURL}search?q={searchTerms}</string>
+	<key>DeviceAutoUpdateDisabled</key>
+	<true/>
+	<key>ExtensionInstallBlacklist</key>
+	<array>
+			<string>emfinbmielocnlhgmfkkmkngdoccbadn</string><!--ARC Welder-->
+			<string>omdakjcmkglenbhjadbccaookpfjihpa</string><!-- TunnelBear-->
+			<string>gkojfkhlekighikafcpjkiklfbnlmeio</string><!-- VPN-->
+			<string>ffbkglfijbcbgblgflchnbphjdllaogb</string><!--VPN-->
+			<string>goimpaiignmlnmdnpnkbbjoophmbebhp</string><!--Tor-->
+			<string>kjoabfljeghcinlpjhdbdfbcflapkccm</string><!--Tor-->
+			<string>hfddekpiekhlkkgeaobcdkeonpkinipo</string><!--Tor-->
+	</array>
+	<key>HomepageIsNewTabPage</key>
+	<false/>
+	<key>PopupsAllowedForUrls</key>
+	<array>
+			<string>[*.]adp.com</string><!--HR.Net-->
+	</array>
+	<key>HomepageLocation</key>
+	<string>https://companywebsite.com</string>
+	<key>RestoreOnStartupURLs</key>
+		<array>
+			<string>https://companywebsite.com</string>
+			<string>https://regionalcompanywebsite.co.uk</string>
+		</array>
+	<key>RestoreOnStartup</key>
+	<integer>4</integer>
+	<key>SafeBrowsingEnabled</key>
+	<true/>
+	<key>ShowHomeButton</key>
+	<true/>
+	<key>SitePerProcess</key>
+	<true/>
+	<key>SyncDisabled</key>
+	<false/>
+</dict>
+</plist>
