@@ -52,7 +52,8 @@
     <false/>
     <key>PopupsAllowedForUrls</key>
     <array>
-      <string>[*.]adp.com</string>
+			<string>[*.]adp.com</string><!--HR.Net-->
+			<string>[*.].bauermedia.co.uk</string><!--All Bauer Media sites-->
     </array>
     <key>RestoreOnStartup</key>
     <integer>4</integer>

@@ -49,6 +49,7 @@
 	<key>PopupsAllowedForUrls</key>
 	<array>
 			<string>[*.]adp.com</string><!--HR.Net-->
+			<string>[*.].bauermedia.co.uk</string><!--All Bauer Media sites-->
 	</array>
 	<key>SendSiteInfoToImproveServices</key>
 	<false/>
