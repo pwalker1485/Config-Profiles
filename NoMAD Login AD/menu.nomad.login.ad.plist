@@ -4,25 +4,29 @@
 	<dict>
 	<key>ADDomain</key>
 	<string>YOURDOMAIN</string>
-	<key>KerberosRealm</key>
-	<string>YOURDOMAIN</string>
-	<key>LoginLogo</key>
-	<string>/usr/local/bauer/loginwindow/Bauer-Logo-icons1.png</string>
-	<key>DemobilizeUsers</key>
+	<key>AllowNetworkSelection</key>
 	<true/>
-	<key>BackgroundImage</key>
-	<string>/usr/local/bauer/loginwindow/magazines.jpg</string>
 	<key>BackgroundImageAlpha</key>
 	<integer>0</integer>
-	<key>LoginScreen</key>
-	<false/>
+	<key>BackgroundImage</key>
+	<string>/usr/local/bauer/loginwindow/magazines.jpg</string>
+	<key>DefaultSystemInformation</key>
+	<string>IP</string>
+	<key>DemobilizeUsers</key>
+	<true/>
 	<key>IgnoreSites</key>
 	<true/>
+	<key>KerberosRealm</key>
+	<string>YOURDOMAIN</string>
 	<key>KeychainAddNoMAD</key>
 	<true/>
 	<key>KeychainCreate</key>
 	<true/>
+	<key>LoginLogo</key>
+	<string>/usr/local/bauer/loginwindow/Bauer-Logo-icons1.png</string>
+	<key>LoginScreen</key>
+	<false/>
 	<key>UsernameFieldPlaceholder</key>
-	<string>YOURDOMAIN Username</string>
+	<string>Bauer-UK Username</string>
 </dict>
 </plist>
