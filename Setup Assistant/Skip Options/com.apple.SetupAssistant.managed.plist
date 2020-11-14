@@ -12,6 +12,8 @@
 	<true/>
 	<key>SkipSiriSetup</key>
 	<true/>
+	<key>SkipTouchIDSetup</key>
+	<true/>
 	<key>SkipTrueTone</key>
 	<true/>
 	<key>SkipiCloudStorageSetup</key>
