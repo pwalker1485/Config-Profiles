@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HomeMount</key>
+	<dict>
+		<key>Groups</key>
+		<array/>
+		<key>Mount</key>
+		<false/>
+		<key>Options</key>
+		<array/>
+	</dict>
+	<key>PayloadDisplayName</key>
+	<string>Jamf Connect Shares</string>
+	<key>PayloadType</key>
+	<string>com.jamf.connect.shares</string>
+	<key>Shares</key>
+	<array>
+		<dict>
+			<key>AutoMount</key>
+			<false/>
+			<key>ConnectedOnly</key>
+			<true/>
+			<key>Groups</key>
+			<array>
+				<string>IT_SoftwareLib_DTM_APPS_RW</string>
+                <string>IT_SoftwareLib_DTM_OS</string>
+			</array>
+			<key>LocalMount</key>
+			<string>/Volumes/SoftwareLibrary</string>
+			<key>Name</key>
+			<string>Software Library</string>
+			<key>Options</key>
+			<array/>
+			<key>URL</key>
+			<string>smb://bauer-uk.bauermedia.group/data/IT/SoftwareLibrary</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<string>1</string>
+</dict>
+</plist>
