@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+	<key>ADDomain</key>
+	<string>bauer-uk.bauermedia.group</string>
+	<key>KerberosRealm</key>
+	<string>BAUER-UK.BAUERMEDIA.GROUP</string>
+	<key>LoginLogo</key>
+	<string>/usr/local/bauer/loginwindow/Bauer-Logo-icons1.png</string>
+	<key>DemobilizeUsers</key>
+	<true/>
+	<key>BackgroundImage</key>
+	<string>/usr/local/bauer/loginwindow/magazines.jpg</string>
+	<key>BackgroundImageAlpha</key>
+	<integer>0</integer>
+	<key>LoginScreen</key>
+	<false/>
+	<key>IgnoreSites</key>
+	<true/>
+	<key>KeychainAddNoMAD</key>
+	<true/>
+	<key>KeychainCreate</key>
+	<true/>
+	<key>UsernameFieldPlaceholder</key>
+	<string>Bauer-UK Username</string>
+	<key>NotifyLogStyle</key>
+	<string>jamf</string>
+	<key>ScriptPath</key>
+	<string>/var/tmp/launchDEPNotify.sh</string>
+    <key>UserInputLogo</key>
+    <string>/var/tmp/bauer_logo.png</string>
+    <key>UserInputMainText</key>
+	<string>Welcome to your new Mac</string>
+	<key>UserInputOutputPath</key>
+	<string>/Users/Shared/UserInput.plist</string>
+	<key>UserInputTitle</key>
+	<string>Let's get started...</string>
+	<key>UserInputUI</key>
+    <dict>
+		<key>Button</key>
+		    <dict>
+			    <key>enabled</key>
+				<true/>
+				<key>title</key>
+				<string>Get Started</string>
+			</dict>
+			<key>PopUps</key>
+            <array>
+				<dict>
+					<key>items</key>
+					<array>
+					    <string>Student</string>
+						<string>Staff</string>
+						<string>Staff Loan</string>
+					</array>
+					<key>title</key>
+					<string>Computer Role</string>
+				</dict>
+			</array>
+			<key>TextFields</key>
+			<array>
+				<dict>
+					<key>placeholder</key>
+					<string>ABCD123-12345</string>
+					<key>title</key>
+					<string>Computer Name</string>
+				</dict>
+			</array>
+	</dict>
+</dict>
+</plist>
