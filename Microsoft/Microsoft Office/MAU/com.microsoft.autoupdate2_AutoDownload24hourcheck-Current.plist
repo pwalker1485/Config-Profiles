@@ -7,14 +7,12 @@
     <key>HowToCheck</key>
     <string>AutomaticDownload</string>
     <key>ChannelName</key>
-    <string>InsiderFast</string>
-    <key>EnableCheckForUpdatesButton</key>
+    <string>Current</string>
+    <key>DisableInsiderCheckbox</key>
     <true/>
-    <key>UpdateDeadline.DaysBeforeForcedQuit</key>
-    <integer>3</integer>
     <key>StartDaemonOnAppLaunch</key>
     <true/>
     <key>UpdateCheckFrequency</key>
-    <integer>720</integer>
+    <integer>1440</integer>
   </dict>
 </plist>

@@ -7,12 +7,12 @@
     <key>HowToCheck</key>
     <string>AutomaticDownload</string>
     <key>ChannelName</key>
-    <string>Production</string>
-    <key>DisableInsiderCheckbox</key>
+    <string>Beta</string>
+    <key>EnableCheckForUpdatesButton</key>
     <true/>
     <key>StartDaemonOnAppLaunch</key>
     <true/>
     <key>UpdateCheckFrequency</key>
-    <integer>1440</integer>
+    <integer>720</integer>
   </dict>
 </plist>
