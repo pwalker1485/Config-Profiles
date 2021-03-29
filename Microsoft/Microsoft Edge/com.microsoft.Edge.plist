@@ -14,6 +14,8 @@
 	<string>Google</string>
 	<key>DefaultSearchProviderSearchURL</key>
 	<string>{google:baseURL}search?q={searchTerms}</string>
+    <key>DiagnosticData</key>
+    <integer>0</integer>
 	<key>ExtensionInstallBlocklist</key>
 	<array>
 			<string>emfinbmielocnlhgmfkkmkngdoccbadn</string><!--ARC Welder-->
@@ -41,8 +43,6 @@
 	</array>
 	<key>ImportPaymentInfo</key>
 	<false/>
-	<key>MetricsReportingEnabled</key>
-	<false/>
 	<key>NewTabPageHideDefaultTopSites</key>
 	<true/>
 	<key>PaymentMethodQueryEnabled</key>
@@ -52,8 +52,6 @@
 			<string>[*.]adp.com</string><!--HR.Net-->
 			<string>[*.].bauermedia.co.uk</string><!--All Bauer Media sites-->
 	</array>
-	<key>SendSiteInfoToImproveServices</key>
-	<false/>
 	<key>ShowHomeButton</key>
 	<true/>
 	<key>SitePerProcess</key>
