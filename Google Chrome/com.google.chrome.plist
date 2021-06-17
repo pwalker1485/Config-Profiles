@@ -18,7 +18,7 @@
 	<string>Google</string>
 	<key>DefaultSearchProviderSearchURL</key>
 	<string>{google:baseURL}search?q={searchTerms}</string>
-	<key>ExtensionInstallBlacklist</key>
+	<key>ExtensionInstallBlocklist</key>
 	<array>
 			<string>emfinbmielocnlhgmfkkmkngdoccbadn</string><!--ARC Welder-->
 			<string>omdakjcmkglenbhjadbccaookpfjihpa</string><!--TunnelBear-->
