@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>AllowNetworkSelection</key>
+    <true/>
+    <key>BackgroundImage</key>
+    <string>/usr/local/BauerMediaGroup/loginwindow/magazines.jpg</string>
+    <key>CreateAdminUser</key>
+    <true/>
+    <key>CreateJamfConnectPassword</key>
+    <true/>
+    <key>DemobilizeUsers</key>
+    <true/>
+    <key>DenyLocal</key>
+    <true/>
+    <key>EnableFDE</key>
+    <true/>
+    <key>LoginLogo</key>
+    <string>/usr/local/BauerMediaGroup/loginwindow/Bauer-Logo-icons1.png</string>
+    <key>OIDCClientID</key>
+    <string>b248be32-6321-4fca-b00b-d26eb11916bb</string>
+    <key>OIDCNewPassword</key>
+    <false/>
+    <key>OIDCProvider</key>
+    <string>Azure</string>
+    <key>OIDCROPGID</key>
+    <string>9ba978ca-5fd7-4594-9700-30ea857ecd73</string>
+    <key>OIDCRedirectURI</key>
+    <string>https://127.0.0.1/jamfconnect</string>
+    <key>OIDCShortName</key>
+    <string>onpremisessamaccountname</string>
+    <key>ROPGDiscoveryURL</key>
+    <string>https://sts2.bauermedia.co.uk/adfs/.well-known/openid-configuration</string>
+    <key>ROPGProvider</key>
+    <string>Custom</string>
+    <key>ROPGRedirectURI</key>
+    <string>https://127.0.0.1/jamfconnect</string>
+  </dict>
+</plist>

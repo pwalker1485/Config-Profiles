@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>Apps</string>
+        </dict>
+        <dict>
+            <key>Name</key>
+            <string>separator</string>
+        </dict>
+        <dict>
+            <key>Action</key>
+            <array>
+                <dict>
+                    <key>Command</key>
+                    <string>app</string>
+                    <key>CommandOptions</key>
+                    <string>/Applications/Cisco/Cisco AnyConnect Secure Mobility Client.app</string>
+                </dict>
+            </array>
+            <key>Name</key>
+            <string>Cisco AnyConnect (VPN)</string>
+        </dict>
+        <dict>
+            <key>Action</key>
+            <array>
+                <dict>
+                    <key>Command</key>
+                    <string>app</string>
+                    <key>CommandOptions</key>
+                    <string>/Applications/Mount Network Shares.app</string>
+                </dict>
+            </array>
+            <key>Name</key>
+            <string>Mount Network Shares</string>
+        </dict>
+        <dict>
+            <key>Action</key>
+            <array>
+                <dict>
+                    <key>Command</key>
+                    <string>app</string>
+                    <key>CommandOptions</key>
+                    <string>/Applications/Self Service.app</string>
+                </dict>
+            </array>
+            <key>Name</key>
+            <string>Self Service</string>
+        </dict>
+        <dict>
+            <key>Name</key>
+            <string>separator</string>
+        </dict>
+        <dict>
+            <key>Name</key>
+            <string>Links</string>
+        </dict>
+        <dict>
+            <key>Name</key>
+            <string>separator</string>
+        </dict>
+        <dict>
+            <key>Action</key>
+            <array>
+                <dict>
+                    <key>Command</key>
+                    <string>url</string>
+                    <key>CommandOptions</key>
+                    <string>https://itservicedesk.bauerservices.co.uk/Workspaces/</string>
+                </dict>
+            </array>
+            <key>Name</key>
+            <string>Raise a support ticket</string>
+        </dict>
+        <dict>
+            <key>Action</key>
+            <array>
+                <dict>
+                    <key>Command</key>
+                    <string>url</string>
+                    <key>CommandOptions</key>
+                    <string>https://bauer.sharepoint.com/sites/office365/bauertechnology</string>
+                </dict>
+            </array>
+            <key>Name</key>
+            <string>Bauer Technology Portal</string>
+        </dict>
+        <dict>
+            <key>Action</key>
+            <array>
+                <dict>
+                    <key>Command</key>
+                    <string>url</string>
+                    <key>CommandOptions</key>
+                    <string>https://bauer.sharepoint.com/sites/office365/</string>
+                </dict>
+            </array>
+            <key>Name</key>
+            <string>Bauer Office 365 Portal</string>
+        </dict>
+    </array>
+</dict>
+</plist>
