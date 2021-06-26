@@ -4,8 +4,6 @@
   <dict>
     <key>AllowNetworkSelection</key>
     <true/>
-    <key>BackgroundImage</key>
-    <string>/usr/local/BauerMediaGroup/loginwindow/magazines.jpg</string>
     <key>CreateJamfConnectPassword</key>
     <true/>
     <key>DemobilizeUsers</key>
@@ -28,15 +26,7 @@
     <string>Custom</string>
     <key>ROPGRedirectURI</key>
     <string>https://127.0.0.1/jamfconnect</string>
-    <key>EnableFDE</key>
-    <true/>
-    <key>CreateAdminUser</key>
-    <true/>
     <key>OIDCShortName</key>
     <string>onpremisessamaccountname</string>
-    <key>OIDCIDTokenPath</key>
-    <string>/tmp/token</string>
-    <key>OIDCIDTokenPathRaw</key>
-    <string>/tmp/token-raw</string>
   </dict>
 </plist>
